@@ -2,14 +2,14 @@
     background-color: #343a40;
 }
 
-.backImg {
+/* .backImg {
     height: 100vh;
     background-image: url(/assets/images/pexels-photo-2166926.jpeg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
 
-}
+} */
 
 h1,
 .h2,
@@ -60,7 +60,7 @@ h6 {
 }
 
 .slider-text {
-    color: #fff;
+    color: darkslategray;
     height: 500px;
 
 }
@@ -69,8 +69,13 @@ h3 {
     color: #1f2ee3;
 }
 
+#project-title {
+    color: gold;
+}
+
+
 .color {
-    color: rgb(199, 142, 57);
+    color: gold;
 }
 
 .active {
@@ -79,19 +84,19 @@ h3 {
 }
 
 .slider-item .slider-text {
-    color: #fff;
+    color: darkslategray;
     height: calc(50vh - 117px);
     min-height: 550px
 }
 
 .btn-outline-white {
-    border: 2px solid #fff;
+    border: 2px solid gold;
     text-transform: uppercase;
     font-size: 14px;
     font-weight: bold;
     border-radius: 0px;
     padding: 10px 20px;
-    color: #fff
+    color: blue
 }
 
 .container img {
@@ -121,7 +126,7 @@ h3 {
 }
 
 a:hover {
-    color: rgb(95, 136, 91);
+    color: white;
 }
 
 .btn-outline-black {
@@ -153,16 +158,16 @@ a:hover {
     .img-dotted-bg .img-absolute{
         position:absolute;max-width:300px;bottom:-20px;right:-20px
     } */
-.work-thumb {
+.portfolio-link {
     display: block;
     position: relative
 }
 
-.work-thumb img {
+.portfolio-link img {
     border: 10px solid #fff
 }
 
-.work-thumb .work-text {
+.portfolio-link .work-text {
     text-align: center;
     position: absolute;
     top: 50%;
@@ -179,18 +184,18 @@ a:hover {
     transform: translate(-50%, -50%)
 }
 
-.work-thumb .work-text h2 {
+.portfolio-link .work-text h2 {
     color: #fff;
     font-weight: 300;
     margin-bottom: 0;
     font-size: 1.5rem
 }
 
-.work-thumb .work-text p {
+.portfolio-link .work-text p {
     color: rgba(255, 255, 255, 0.5)
 }
 
-.work-thumb:before {
+.portfolio-link:before {
     content: "";
     background: rgba(0, 0, 0, 0.5);
     position: absolute;
@@ -205,13 +210,13 @@ a:hover {
     bottom: 10px
 }
 
-.work-thumb:hover .work-text {
+.portfolio-link:hover .work-text {
     margin-top: 0px;
     opacity: 1;
     visibility: visible
 }
 
-.work-thumb:hover:before {
+.portfolio-link:hover:before {
     opacity: 1;
     visibility: visible
 }
@@ -245,7 +250,7 @@ a:hover {
 .align-left.slide-in {
     transform: translateX(-30%) scale(0.95);
 }
-  
+
 .align-right.slide-in {
     transform: translateX(30%) scale(0.95);
 }
@@ -254,6 +259,18 @@ a:hover {
     opacity: 1;
     transform: translateX(0%) scale(1);
 }
+
+#project-image {
+    padding-left: 45px;
+
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+  }
 
 @media (min-width:250px) {
     .move {

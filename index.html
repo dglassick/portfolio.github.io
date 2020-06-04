@@ -18,14 +18,14 @@
     <header class='bg-dark'>
         <nav class="navbar bg-dark navbar-expand ">
             <div class="container-fluid">
-                <a href="index.html" class="navbar-brand color">Home</a>
+                <a href="index.html" class="navbar-brand color"><img src="/assets/images/3092996684_08ae58ce-8946-4637-ac83-381a8b5c09e4.png" alt="logo" width="150"></a>
 
 
                 <div class="collapse navbar-collapse" id="navbarsExample05">
                     <ul class="navbar-nav pl-md-5 ml-auto">
                         <li class="nav-item">
 
-                            <a class="nav-link color active" href="index.html">Home</a>
+                            <a class="nav-link color " href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link color" href="/html/portfolio.html">Projects</a>
@@ -41,28 +41,31 @@
 
 
 
-    <div class="backImg slider-item overlay" data-stellar-background-ratio=".5">
+    <div class=" slider-item overlay" data-stellar-background-ratio=".5">
         <div class="container">
             <div class="row slider-text align-items-center justify-content-center ">
                 <div class="col-lg-12 text-center col-sm-12 ">
-                    <h1 class="mb-4 links">Hi, my name is Derek Glassick<br>
+                    <h1 class="mb-4 links">Hi, my name is Derek Glassick.<br>
                         This is my portfolio.
                     </h1>
 
-                    <div class="row  justify-content-center links">
+                    <br>
+                    <br>
+                    <hr>
+                    <div class="row justify-content-center links">
 
                         <p class="col-sm-3 mb-0  move">
                             <span><i class="icon-github-alt"></i></span>
                             <a href="https://github.com/dglassick" target="_blank"
-                                class="btn btn-outline-white px-4 py-3">GitHub</a>
+                                class="btn btn-outline-white px-5 py-3">GitHub <br> <i class="fab fa-github fa-3x"></i></a>
                         </p>
                         <p class=" col-sm-3 mb-0  move">
                             <a href="./assets/images/Derek Bryan Glassick Resume 2020.pdf" target="_blank"
-                                class="btn btn-outline-white px-4 py-3">Resume in Progress</a>
+                                class="btn btn-outline-white px-5 py-3">Resume <br> <i class="fas fa-file fa-3x"></i></a>
                         </p>
                         <p class="col-sm-3 mb-0  move">
                             <a href="https://www.linkedin.com/in/derek-glassick-489ba590/" target="_blank"
-                                class="btn btn-outline-white px-4 py-3">Linkedin</a>
+                                class="btn btn-outline-white px-5 py-3">LinkedIn <br> <i class="fab fa-linkedin fa-3x"></i></a>
                         </p>
                     </div>
 
@@ -70,9 +73,14 @@
             </div>
         </div>
     </div>
+
     <div class="section">
         <div class="container description">
+            <hr>
+            <br>
+            <br>
             <div class="row align-items-center">
+                
                 <div class="col-md-6">
                     <img src="/assets/images/IMG_6262.jpg" width='350' alt="profile picture" class='img-fluid align-left slide-in'>
                 </div>
@@ -138,7 +146,7 @@
                             <h6>Node.js</h6>
                             <h6>Express</h6>
                             <h6>MySQL</h6>
-
+                            <h6>MongoDB</h6>
                         </div>
                     </div>
                 </div>
@@ -158,17 +166,28 @@
         <div class="container">
             <div class="row mb-5 no-gutters">
                 <div class="col-sm-6 col-md-6 col-lg-6" >
-                    <a href="https://thawing-falls-68929.herokuapp.com/" target="_blank" class="work-thumb">
+                    <a href="https://thawing-falls-68929.herokuapp.com/" target="_blank" class="portfolio-link">
                         <div class="work-text">
                             <h2>Note Taker</h2>
-                            <h3>Node/Express</h3>
+                            <h3 id = 'project-title'>Node/Express</h3>
                             <p>Allows you to save and delete notes.</p>
                         </div>
-                        <img src="./assets/images/Annotation 2020-05-05 112629.png" alt="screen shot of application" class='image-fluid ' height='250'>
+                        <img src="./assets/images/note-taker (1).png" alt="screen shot of application" class='image-fluid' id='project-image' width='500'>
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-6" >
+                    <a href="https://fast-stream-44549.herokuapp.com/" target="_blank" class="portfolio-link">
+                        <div class="work-text">
+                            <h2>Code Hunters</h2>
+                            <h3 id = 'project-title'>MYSQL/Handlebars/Node/Express</h3>
+                            <p>Allows you to create a job listing that can be filtered based on language and location.</p>
+                        </div>
+                        <img src="./assets/images/code-hunters-logo2.png" alt="screen shot of application" class='image-fluid' id='project-image' width='500'>
                     </a>
                 </div>
             </div>
         </div>
+        
     </div>
 
     <dic class="section portfolio-section"></dic>
