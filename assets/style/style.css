@@ -261,7 +261,7 @@ a:hover {
 }
 
 #project-image {
-    padding-left: 45px;
+    border: slategray 1px solid;
 
 }
 
