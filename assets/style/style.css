@@ -76,6 +76,7 @@ h3 {
 
 .color {
     color: gold;
+    font-size: 25 px;
 }
 
 .active {
@@ -85,8 +86,13 @@ h3 {
 
 .slider-item .slider-text {
     color: darkslategray;
-    height: calc(50vh - 117px);
-    min-height: 550px
+    /* height: calc(50vh - 117px); */
+    min-height: 475px
+}
+
+.contact-header{
+    color: black;
+    min-height: 200px;
 }
 
 .btn-outline-white {
@@ -129,20 +135,13 @@ a:hover {
     color: white;
 }
 
-.btn-outline-black {
-    border: 3px solid rgb(214, 171, 62);
+.btn-outline-secondary {
+    border: 3px solid;
     border-radius: 10px;
     text-transform: uppercase;
     font-size: 14px;
     padding: 10px 20px;
     color: #000;
-}
-
-.form-control {
-    background-color: #fff;
-    border-color: #dcdcf0;
-    outline: 0;
-    border: 3px solid rgb(214, 171, 62);
 }
 
 .size {
@@ -164,7 +163,7 @@ a:hover {
 }
 
 .portfolio-link img {
-    border: 10px solid #fff
+    border: 5px solid gold
 }
 
 .portfolio-link .work-text {
@@ -204,10 +203,10 @@ a:hover {
     transition: .3s all ease;
     opacity: 0;
     visibility: hidden;
-    top: 10px;
-    left: 10px;
-    right: 10px;
-    bottom: 10px
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px
 }
 
 .portfolio-link:hover .work-text {
@@ -260,9 +259,13 @@ a:hover {
     transform: translateX(0%) scale(1);
 }
 
-#project-image {
-    border: slategray 1px solid;
+/* #project-image {
+    border: slategray px solid;
 
+} */
+
+#completed-projects{
+    color: white;
 }
 
 hr {
@@ -272,6 +275,30 @@ hr {
     border-top: 1px solid rgba(0, 0, 0, 0.1);
   }
 
+#about-me{
+    height: auto;
+    color: white;
+}
+
+.footer1{
+    background-color: #343a40;
+    color: gold;
+}
+
+.form-margin{
+margin-top: 30px;
+}
+
+.form-control{
+background-color: white;
+outline: 0;
+border: 3px #343a40 solid;
+border-radius: 10px;
+text-transform:uppercase;
+font-size:14px;
+padding:10px 20px;
+color:#000;
+}
 @media (min-width:250px) {
     .move {
         padding: 20px;
