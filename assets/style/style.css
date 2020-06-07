@@ -95,12 +95,12 @@ h3 {
     min-height: 200px;
 }
 
-.btn-outline-white {
+.link-buttons {
     border: 2px solid gold;
     text-transform: uppercase;
     font-size: 14px;
     font-weight: bold;
-    border-radius: 0px;
+    border-radius: 3px;
     padding: 10px 20px;
     color: blue
 }
@@ -136,8 +136,8 @@ a:hover {
 }
 
 .btn-outline-secondary {
-    border: 3px solid;
-    border-radius: 10px;
+    border: 2px solid;
+    border-radius: 3px;
     text-transform: uppercase;
     font-size: 14px;
     padding: 10px 20px;
@@ -292,11 +292,10 @@ margin-top: 30px;
 .form-control{
 background-color: white;
 outline: 0;
-border: 3px #343a40 solid;
-border-radius: 10px;
-text-transform:uppercase;
+border: 2px #343a40 solid;
+border-radius: 3px;
 font-size:14px;
-padding:10px 20px;
+
 color:#000;
 }
 @media (min-width:250px) {
