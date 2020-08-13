@@ -5,3 +5,7 @@ A personal portfolio that uses HTML, CSS, and JS. Index.html has general informa
 
 # Running Application
 Since the portfolio only uses html you can just open it in your browser after clonging the repo and run it.
+
+## Deployed Application
+Below is the link to the deployed application.
+https://dglassick.github.io/portfolio.github.io/
