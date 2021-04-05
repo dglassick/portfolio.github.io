@@ -1,10 +1,15 @@
+body {
+  background-color: rgb(245, 244, 244);
+}
+
 .navbar {
   background-color: #343a40;
 }
 
 .backImg {
   height: 100vh;
-  background-image: url('https://images.pexels.com/photos/326333/pexels-photo-326333.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url('https://images.pexels.com/photos/131723/pexels-photo-131723.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
